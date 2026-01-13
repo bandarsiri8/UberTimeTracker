@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Uber Time</string>
+    <string name="accessibility_service_description">This service monitors the Uber Driver app to automatically track your working hours. It detects when you go online/offline and automatically starts/stops the timer.</string>
+    
+    <!-- Status -->
+    <string name="status_running">Running</string>
+    <string name="status_stopped">Stopped</string>
+    <string name="status_paused">Paused</string>
+    <string name="status_online">ONLINE</string>
+    <string name="status_offline">OFFLINE</string>
+    
+    <!-- Buttons -->
+    <string name="btn_start">Start</string>
+    <string name="btn_stop">Stop</string>
+    <string name="btn_pause">Pause</string>
+    <string name="btn_resume">Resume</string>
+    <string name="btn_export">Export</string>
+    <string name="action_share">Share</string>
+    <string name="action_save">Save to Device</string>
+    
+    <!-- Home Screen -->
+    <string name="current_session">CURRENT SESSION</string>
+    <string name="started_at">Started at %1$s</string>
+    <string name="auto_sync">Auto-Sync</string>
+    <string name="auto_sync_description">Detects screen content, language and status using Accessibility + OCR + AI</string>
+    <string name="offline_cache">Offline Cache</string>
+    <string name="offline_cache_ready">Ready</string>
+    <string name="live_debug_inspector">Live Debug Inspector</string>
+    <string name="detected_language">Detected App Language</string>
+    
+    <!-- Timesheet Screen - German -->
+    <string name="arbeitszeitliste">ARBEITSZEITLISTE</string>
+    <string name="monat">Monat</string>
+    <string name="datum">Datum</string>
+    <string name="tag">Tag</string>
+    <string name="start_1">Start 1</string>
+    <string name="stop_1">Stop 1</string>
+    <string name="pause">Pause</string>
+    <string name="gesamtpause">Gesamtpause</string>
+    <string name="start_2">Start 2</string>
+    <string name="stop_2">Stop 2</string>
+    <string name="gesamtstunden">Σ</string>
+    <string name="woche_gesamt">Woche %1$d Gesamt:</string>
+    <string name="monatsgesamt">MONATSGESAMT</string>
+    <string name="synced">Synced</string>
+    
+    <!-- Days - German -->
+    <string name="mo">Mo</string>
+    <string name="di">Di</string>
+    <string name="mi">Mi</string>
+    <string name="do_day">Do</string>
+    <string name="fr">Fr</string>
+    <string name="sa">Sa</string>
+    <string name="so">So</string>
+    
+    <!-- Export Options -->
+    <string name="excel_xlsx">Excel (.xlsx)</string>
+    <string name="word_docx">Word (.docx)</string>
+    <string name="pdf">PDF (.pdf)</string>
+
+    <string name="export_filename_prefix">Timesheet</string>
+    <string name="export_title">TIMESHEET</string>
+    <string name="week_total_label">Week %1$d Total</string>
+    <string name="generated_with">Generated with Uber Time App • %1$s</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_timesheet">Timesheet</string>
+    <string name="nav_settings">Settings</string>
+    
+    <!-- Notifications -->
+    <string name="notification_channel_timer">Timer</string>
+    <string name="notification_channel_timer_desc">Shows the active timer</string>
+    <string name="notification_timer_title">Uber Time</string>
+    <string name="notification_timer_text">Session running: %1$s</string>
+    
+    <!-- Warnings -->
+    <string name="time_overlap_warning">Time overlap detected</string>
+    <string name="conflict_detected">Conflict detected</string>
+    
+    <!-- Settings -->
+    <string name="enable_accessibility">Enable Accessibility Service</string>
+    <string name="accessibility_not_enabled">Accessibility service is not enabled. Tap to enable.</string>
+    <string name="theme">Theme</string>
+    <string name="light_mode">Light Mode</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="system_default">System Default</string>
+    <string name="language">Language</string>
+    
+    <!-- Languages -->
+    <string name="lang_en">EN</string>
+    <string name="lang_de">DE</string>
+    <string name="lang_ar">AR</string>
+    <string name="lang_fr">FR</string>
+    <string name="lang_es">ES</string>
+    <string name="lang_it">IT</string>
+    <string name="lang_pt">PT</string>
+    <string name="lang_tr">TR</string>
+    <string name="lang_ru">RU</string>
+    <string name="lang_hi">HI</string>
+    <string name="lang_ja">JA</string>
+    
+    <!-- Debug Log Messages -->
+    <string name="log_accessibility_connected">[System] Accessibility Service: Connected.</string>
+    <string name="log_ocr_detected">[OCR] Detected Text: \"%1$s\"</string>
+    <string name="log_language_detected">[Language] Detected Language: %1$s (%2$s)</string>
+    <string name="log_status_detected">[Analysis] Status detected: %1$s.</string>
+    <string name="log_auto_starting">[Action] Auto-Starting Timer…</string>
+    <string name="log_auto_stopping">[Action] Auto-Stopping Timer…</string>
+    <string name="log_sync_running">[Sync] Timer running.</string>
+    <string name="log_sync_stopped">[Sync] Timer stopped.</string>
+</resources>

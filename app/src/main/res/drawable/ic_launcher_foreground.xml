@@ -1,0 +1,31 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Background circle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,20c-18.78,0 -34,15.22 -34,34s15.22,34 34,34s34,-15.22 34,-34S72.78,20 54,20z"/>
+    
+    <!-- Inner circle outline -->
+    <path
+        android:fillColor="#6200EE"
+        android:pathData="M54,24c-16.57,0 -30,13.43 -30,30s13.43,30 30,30s30,-13.43 30,-30S70.57,24 54,24zM54,80c-14.36,0 -26,-11.64 -26,-26s11.64,-26 26,-26s26,11.64 26,26S68.36,80 54,80z"/>
+    
+    <!-- U letter - stylized -->
+    <path
+        android:fillColor="#6200EE"
+        android:pathData="M36,40v18c0,9.94 8.06,18 18,18s18,-8.06 18,-18V40h-8v18c0,5.52 -4.48,10 -10,10s-10,-4.48 -10,-10V40H36z"/>
+    
+    <!-- T letter overlaid - stylized -->
+    <path
+        android:fillColor="#00BFA5"
+        android:pathData="M46,36h24v6h-9v30h-6V42h-9V36z"/>
+    
+    <!-- Clock tick marks -->
+    <path
+        android:fillColor="#6200EE"
+        android:pathData="M52,26h4v4h-4zM52,78h4v4h-4zM78,52v4h4v-4zM26,52v4h-4v-4z"/>
+</vector>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Uber Zeiterfassung</string>
+    <string name="accessibility_service_description">Dieser Dienst überwacht die Uber Fahrer-App, um Ihre Arbeitszeiten automatisch zu erfassen. Er erkennt, wann Sie online/offline gehen und startet/stoppt den Timer automatisch.</string>
+    
+    <!-- Status -->
+    <string name="status_running">Läuft</string>
+    <string name="status_stopped">Gestoppt</string>
+    <string name="status_paused">Pausiert</string>
+    <string name="status_online">ONLINE</string>
+    <string name="status_offline">OFFLINE</string>
+    
+    <!-- Buttons -->
+    <string name="btn_start">Start</string>
+    <string name="btn_stop">Stopp</string>
+    <string name="btn_pause">Pause</string>
+    <string name="btn_resume">Fortsetzen</string>
+    <string name="btn_export">Exportieren</string>
+    <string name="action_share">Teilen</string>
+    <string name="action_save">Speichern</string>
+
+    <string name="export_filename_prefix">Arbeitszeitliste</string>
+    <string name="export_title">ARBEITSZEITLISTE</string>
+    <string name="week_total_label">Woche %1$d Gesamt</string>
+    <string name="generated_with">Generiert mit Uber Time App • %1$s</string>
+    
+    <!-- Export Options -->
+    <string name="excel_xlsx">Excel (.xlsx)</string>
+    <string name="word_docx">Word (.docx)</string>
+    <string name="pdf">PDF (.pdf)</string>
+    
+    <!-- Home Screen -->
+    <string name="current_session">AKTUELLE SITZUNG</string>
+    <string name="started_at">Gestartet um %1$s</string>
+    <string name="auto_sync">Auto-Sync</string>
+    <string name="auto_sync_description">Erkennt Bildschirminhalt, Sprache und Status mittels Barrierefreiheit + OCR + KI</string>
+    <string name="offline_cache">Offline-Cache</string>
+    <string name="offline_cache_ready">Bereit</string>
+    <string name="cloud_sync">Cloud-Sync</string>
+    <string name="cloud_sync_active">Aktiv</string>
+    <string name="live_debug_inspector">Live Debug Inspektor</string>
+    <string name="detected_language">Erkannte App-Sprache</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Startseite</string>
+    <string name="nav_timesheet">Zeiterfassung</string>
+    <string name="nav_settings">Einstellungen</string>
+    
+    <!-- Notifications -->
+    <string name="notification_channel_timer">Timer</string>
+    <string name="notification_channel_timer_desc">Zeigt den aktiven Timer an</string>
+    <string name="notification_timer_title">Uber Zeiterfassung</string>
+    <string name="notification_timer_text">Sitzung läuft: %1$s</string>
+    
+    <!-- Warnings -->
+    <string name="time_overlap_warning">Zeitüberschneidung erkannt</string>
+    <string name="conflict_detected">Konflikt erkannt</string>
+    
+    <!-- Settings -->
+    <string name="enable_accessibility">Barrierefreiheitsdienst aktivieren</string>
+    <string name="accessibility_not_enabled">Der Barrierefreiheitsdienst ist nicht aktiviert. Tippen Sie zum Aktivieren.</string>
+    <string name="theme">Design</string>
+    <string name="light_mode">Heller Modus</string>
+    <string name="dark_mode">Dunkler Modus</string>
+    <string name="system_default">Systemstandard</string>
+    <string name="language">Sprache</string>
+</resources>

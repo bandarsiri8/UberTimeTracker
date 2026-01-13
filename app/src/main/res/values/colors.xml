@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Brand Colors -->
+    <color name="purple_primary">#6200EE</color>
+    <color name="purple_primary_variant">#3700B3</color>
+    <color name="purple_dark">#BB86FC</color>
+    <color name="purple_light">#E8DEF8</color>
+    
+    <!-- Secondary Colors -->
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+    
+    <!-- Status Colors -->
+    <color name="green_online">#00C853</color>
+    <color name="green_start">#4CAF50</color>
+    <color name="red_stop">#F44336</color>
+    <color name="orange_pause">#FF9800</color>
+    <color name="yellow_warning">#FFC107</color>
+    
+    <!-- Background Colors -->
+    <color name="background_light">#FFFFFF</color>
+    <color name="background_dark">#121212</color>
+    <color name="surface_light">#F5F5F5</color>
+    <color name="surface_dark">#1E1E1E</color>
+    <color name="card_light">#FFFFFF</color>
+    <color name="card_dark">#2D2D2D</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary_light">#212121</color>
+    <color name="text_primary_dark">#FFFFFF</color>
+    <color name="text_secondary_light">#757575</color>
+    <color name="text_secondary_dark">#B3B3B3</color>
+    
+    <!-- Weekend Colors -->
+    <color name="weekend_highlight">#FFF3E0</color>
+    <color name="weekend_text">#FF9800</color>
+    
+    <!-- Console Colors -->
+    <color name="console_background">#1E1E2E</color>
+    <color name="console_text">#CDD6F4</color>
+    <color name="console_green">#A6E3A1</color>
+    <color name="console_yellow">#F9E2AF</color>
+    <color name="console_red">#F38BA8</color>
+    <color name="console_cyan">#89DCEB</color>
+    <color name="console_purple">#CBA6F7</color>
+    
+    <!-- Gradient Colors -->
+    <color name="gradient_start_light">#F3E5F5</color>
+    <color name="gradient_end_light">#E1F5FE</color>
+    <color name="gradient_start_dark">#1A1A2E</color>
+    <color name="gradient_end_dark">#16213E</color>
+    
+    <!-- System -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
